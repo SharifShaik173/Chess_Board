@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chess_Board</title>
+        <style>
+                body {
+                        background-color: darkseagreen;
+                        margin-left: 20%;
+                }
+
+                table {
+                        border: 2px solid black;
+                        height: 500px;
+                        width: 500px;
+                        background-color: white;
+                }
+
+                .d1 {
+                        height: 50px;
+                }
+
+                .d2 {
+                        padding: 35px;
+                }
+
+                #d3 {
+                        display: inline-block;
+                        margin-left: 20%;
+                }
+        </style>
+</head>
+
+<body>
+        <header id="d3">
+                <h1><u>Chess Board</u></h1>
+        </header>
+        <table border="2px solid" cellspacing="0px" cellpadding="5px">
+                <tr>
+                        <td style="background-color: rgb(83, 81, 81);"> <img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Chess_rdt45.svg/960px-Chess_rdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Rook"></td>
+                        <td> <img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Chess_ndt45.svg/960px-Chess_ndt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Knight"></td>
+                        <td style="background-color: rgb(83, 81, 81);"> <img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chess_bdt45.svg/960px-Chess_bdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Bishop"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Chess_kdt45.svg/960px-Chess_kdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="king"></td>
+                        <td style="background-color: rgb(83, 81, 81);"> <img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Chess_qdt45.svg/960px-Chess_qdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="queen"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chess_bdt45.svg/960px-Chess_bdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Bishop"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Chess_ndt45.svg/960px-Chess_ndt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Knight"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Chess_rdt45.svg/960px-Chess_rdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Rook"></td>
+                </tr>
+                <tr>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/960px-Chess_pdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/960px-Chess_pdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/960px-Chess_pdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/960px-Chess_pdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/960px-Chess_pdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/960px-Chess_pdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/960px-Chess_pdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/960px-Chess_pdt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                </tr>
+                <tr>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                </tr>
+                <tr>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                </tr>
+                <tr>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                </tr>
+                <tr>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                        <td></td>
+                        <td style="background-color: rgb(83, 81, 81);" class="d2"></td>
+                </tr>
+                <tr>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/960px-Chess_plt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/960px-Chess_plt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/960px-Chess_plt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/960px-Chess_plt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/960px-Chess_plt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/960px-Chess_plt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/960px-Chess_plt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/960px-Chess_plt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Pawn"></td>
+                </tr>
+                <tr>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Chess_rlt45.svg/960px-Chess_rlt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Rook"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chess_nlt45.svg/960px-Chess_nlt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Knight"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Chess_blt45.svg/960px-Chess_blt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Bishop"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Chess_qlt45.svg/960px-Chess_qlt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Queen"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Chess_klt45.svg/960px-Chess_klt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="King"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Chess_blt45.svg/960px-Chess_blt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Bishop"></td>
+                        <td><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chess_nlt45.svg/960px-Chess_nlt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Knight"></td>
+                        <td style="background-color: rgb(83, 81, 81);"><img class="d1"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Chess_rlt45.svg/960px-Chess_rlt45.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail"
+                                        alt="Rook"></td>
+                </tr>
+        </table>
+</body>
+
+</html>
