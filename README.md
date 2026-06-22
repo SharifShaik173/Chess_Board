@@ -1,7 +1,7 @@
 
 ---
 
-# ♟️ Chess Board
+## ♟️ Chess Board
 
 A visually styled chess board built using **HTML** and **CSS**, displaying a complete standard chess setup with all pieces in their starting positions.
 
